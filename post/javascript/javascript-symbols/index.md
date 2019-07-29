@@ -54,7 +54,7 @@ person[RUN] = () => 'Person is running'
 console.log(person[RUN]()) //'Person is running'
 ```
 
-Symbols are not enumerated, which means that they do not get included in a [`for..of` or `for..in` loop](/javascript-loops/) ran upon an object.
+Symbols are not enumerated, which means that they do not get included in a [`for..of` or `for..in` loop](/javascript-loops/) run upon an object.
 
 Symbols are not part of the [`Object.keys()`](/javascript-object-keys/) or [`Object.getOwnPropertyNames()`](/javascript-object-getownpropertynames/) result.
 
